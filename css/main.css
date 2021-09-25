@@ -1,0 +1,112 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.room {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: 100%;
+  width: 100vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://cdn.fishki.net/upload/post/2017/06/18/2317323/tn/1-02.jpg);
+}
+
+.title {
+  color: tomato;
+  margin-bottom: 50vh;
+}
+
+.position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40vh;
+}
+
+.bear1 {
+  background-image: url(https://mishki-ukraine.nethouse.ua/static/img/0000/0002/1880/21880025.td6g60cwoa.png?1);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 10vw;
+  height: 120%;
+  background-size: contain;
+}
+
+.bear2 {
+  background-image: url(https://pngimg.com/uploads/teddy_bear/teddy_bear_PNG44.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 6vw;
+  height: 120%;
+  background-size: contain;
+}
+
+.floor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.portal1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10vw;
+  height: 20vh;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.portal2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10vw;
+  height: 20vh;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.bad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding-left: 10vw;
+}
+
+.active {
+  border: 5px solid #3e59a5;
+  border-radius: 50%;
+}
+
+.none {
+  display: none;
+}
+
+.plase {
+  border-bottom: 20px solid rgba(150, 100, 100, 0.9);
+  border-radius: 20%;
+}
+/*# sourceMappingURL=main.css.map */
