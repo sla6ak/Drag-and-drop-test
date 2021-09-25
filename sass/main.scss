@@ -70,8 +70,13 @@ html{
 .none{
     display: none;
 }
+
+.active1{
+    border-bottom: 20px solid rgba(163, 202, 140, 0.2);
+    border-radius: 10%;
+}
 .plase{
-    border-bottom: 20px solid rgba(150, 100, 100, 0.9);
+    border-bottom: 20px solid rgba(57, 143, 57, 0.9);
     border-radius: 20%;
 }
 // .move{
