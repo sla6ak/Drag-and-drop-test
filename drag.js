@@ -30,6 +30,7 @@ function dragleave1(event){
 }
 function drop1(event){
     event.target.append(bear1)
+    event.target.classList.remove('plase')
 }
 // ******************************************************
 const bear2 = document.querySelector('.bear2')
@@ -64,4 +65,5 @@ function dragleave2(event){
 }
 function drop2(event){
     event.target.append(bear2)
+    event.target.classList.remove('plase')
 }
